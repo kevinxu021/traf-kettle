@@ -69,9 +69,9 @@
 	  -->
 		
 	  <target name="lib" depends="compile, copy" description="generate the Jasper Reporting Plugin library dummy.jar">
-	  	<echo>Generating the Jasper Reporting library TemplateStepPlugin.jar ...</echo>
+	  	<echo>Generating the Jasper Reporting library TrafodionStepPlugin.jar ...</echo>
 	  	<jar 
-	    	jarfile="${lib}/TemplateStepPlugin.jar" 
+	    	jarfile="${lib}/TrafodionStepPlugin.jar" 
 	    	basedir="${classes}" 
 	    	includes="**/*"/>	 
 	  </target>

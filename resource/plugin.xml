@@ -2,14 +2,14 @@
 <plugin
 
    id="TrafodionPlugin"
-   iconfile="icon.png"
-   description="Trafodion Plugin"
+   iconfile="TOP.svg"
+   description="TrafTable Output"
    tooltip="Only there for demonstration purposes"
    category="Output"
    classname="traftableoutput.TrafTableOutputMeta">
 		
 		<libraries>
-    		<library name="TemplateStepPlugin.jar"/>
+    		<library name="TrafodionStepPlugin.jar"/>
 		</libraries>
 		
 </plugin>
